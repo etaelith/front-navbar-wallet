@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="fixed top-0 left-0 w-screen bg-gray-500 py-2">
+      <nav class="flex justify-between h-10 items-center mx-4">
+        <div>logo</div>
+        <div
+          class="flex justify-evenly inset-x-0 items-center fixed bottom-0 bg-gray-500 py-2"
+        >
+          <div
+            class="text-gray-500 bg-gray-300 dark:bg-gray-900 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-2xl text-sm p-2.5 cursor-pointer"
+          >
+            Nav1
+          </div>
+          <div
+            class="text-gray-500 bg-gray-300 dark:bg-gray-900 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-2xl text-sm p-2.5 cursor-pointer"
+          >
+            Nav2
+          </div>
+          <div
+            class="text-gray-500 bg-gray-300 dark:bg-gray-900 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-2xl text-sm p-2.5 cursor-pointer"
+          >
+            Nav3
+          </div>
+        </div>
+        <div class="flex">
+          <button id="theme-toggle" type="button">
+            <svg id="theme-toggle-dark-icon"  xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+          </svg> 
+          </button>
+          <div
+            class="text-gray-500 bg-gray-300 dark:bg-gray-900 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-2xl text-sm ml-2 p-2.5 cursor-pointer"
+          >
+            wallet
+          </div>
+        </div>
+      </nav>
+    </div>
+  </body>
+</html>
